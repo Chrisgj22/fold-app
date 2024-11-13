@@ -9,11 +9,9 @@ div{
     display: flex;
     flex-direction: column;
     max-width: 400px;
-    padding: 15px;
+    
 }
-.fields{
-    gap: 10px;
-}
+
 input{
     line-height: 30px;
     font-size: large;
@@ -23,11 +21,24 @@ input{
 #Calculate{
     height: 40px;
     width: 120px;
-    background-color: rgb(234, 234, 233);
+    background-color: rgb(188, 237, 173);
     border: none;
     border-radius: 15px;
     font-size: larger;
+    margin-top: 20px;
+    padding: 5px 8px;
 
+}
+.rText{
+    font-size: xx-large;
+    color: black;
+}
+
+#inF{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
 }
 
 #Calculate:hover {
@@ -49,8 +60,7 @@ input{
     padding: 15px;
     display: flex;
     flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.perfect .safe{
-    display: flex;
-}

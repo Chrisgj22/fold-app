@@ -1,0 +1,54 @@
+.outer{
+    margin: auto;
+    align-items: center;
+}
+
+
+div{
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 15px;
+}
+
+input{
+    line-height: 30px;
+    font-size: large;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#Calculate{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(234, 234, 233);
+    border: none;
+    border-radius: 15px;
+    font-size: larger;
+
+}
+
+#Calculate:hover {
+    background-color: black;
+    color: white;
+}
+
+#result{
+    font-size: large;
+    color: rgb(243, 85, 22);
+
+}
+
+.resDiv{
+    background-color: rgb(242, 242, 242);
+    border-radius: 15px;
+    min-width: 400px;
+    max-width: 400px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.perfect .safe{
+    display: flex;
+}

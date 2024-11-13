@@ -19,14 +19,14 @@ input{
     border: 1px solid black;
 }
 #Calculate{
-    height: 40px;
-    width: 120px;
-    background-color: rgb(188, 237, 173);
+    height: 50px;
+    width: 160px;
+    color: black;
+    background-color: rgb(252, 213, 181);
     border: none;
     border-radius: 15px;
-    font-size: larger;
+    font-size: x-large;
     margin-top: 20px;
-    padding: 5px 8px;
 
 }
 .rText{
